@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  color-scheme: dark;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.customcss:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+
+  text-decoration: underline;
+}
+.onHoverClass {
+  width: fit-content;
+  padding: 10px;
+}
+.onHoverClass:hover {
+  background: rgb(25, 25, 25);
+
+  cursor: pointer;
+
+  border-radius: 40px;
+}
+
+.onHover {
+  padding: 0px;
+}
+
+.onHover:hover {
+  cursor: pointer;
+  transition: all 1.5;
+  background: rgb(25, 130, 168);
+}
+
+.textHover {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+.tagHover {
+  color: inherit;
+}
+.tagHover:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all 1.5;
+}
+
+.textHover:hover {
+  cursor: pointer;
+  background: rgb(37, 37, 37);
+  transition-duration: 0.3s;
+  font-weight: 400;
+}
+.textHover:active {
+  background: rgb(37, 37, 37);
+  border-bottom: 1px solid blue;
+}
+
+.verticalLine {
+  border-left: 1px solid #808080; /* Adjust width and color as needed */
+  height: 100%; /* Adjust height as needed */
+}
+
+.imageHover {
+  transition: all 0.5s;
+}
+
+.imageHover:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px;
+}
